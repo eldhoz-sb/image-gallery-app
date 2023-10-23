@@ -1,0 +1,190 @@
+/*Hero Section*/
+.hero-section {
+  background-image: url(/public/mask-group.jpg);
+  background-size: cover;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 384px;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+
+.hero-section .text-wrapper {
+  color: #ffffff;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.64px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.hero-section .div {
+  color: #c4c4c4;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  
+}
+
+.hero-section .rectangle {
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 54px;
+  position: relative;
+
+  width: 808px;
+}
+
+.hero-section .search-icon {
+  height: 18px;
+  left: 341px;
+  position: absolute;
+  top: 226px;
+  width: 17px;
+}
+
+.hero-section .p {
+  color: #c4c4c4;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 373px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 226px;
+}
+
+
+/*Image Masonry*/
+
+.image-grid {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.image-card {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 256px;
+  width: 100%;
+}
+
+.image-card .image {
+  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+  min-width: 256px;
+}
+
+.image-card .frame {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  outline: 1px solid;
+  outline-color: #e5e5e5;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.image-card .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.image-card .author-photo-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px;
+  position: relative;
+  width: 59px;
+}
+
+.image-card .author-photo {
+  height: 39px;
+  object-fit: cover;
+  position: relative;
+  width: 39px;
+  border-radius: 50%;
+}
+
+.image-card .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 32px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.image-card .author-name {
+  color: #4e4e4e;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.image-card .username {
+  color: #a6a6a6;
+  font-family: "Poppins-SemiBoldItalic", Helvetica;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.image-card .frame-3 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px 10px;
+  width: auto;
+}
+
+.image-card .like-icon {
+  height: 14px;
+  position: relative;
+  width: 14px;
+}
+
+.image-card .likes {
+  color: #4e4e4e;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

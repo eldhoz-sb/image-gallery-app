@@ -1,0 +1,109 @@
+/* Your existing styles for light mode */
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #232323; /* Dark background color */
+  color: #ffffff; /* Light text color on dark background */
+
+  /* Modify other styles for dark mode as needed */
+}
+.dark-mode .box {
+  background-color: #232323; /* Dark background color */
+  color: #ffffff; /* Light text color on dark background */
+
+  /* Modify other styles for dark mode as needed */
+}
+
+.dark-mode .logo {
+  color: #ffffff;
+}
+
+.dark-mode .box .text-wrapper {
+  color: #ffffff;
+}
+
+.dark-mode .dark-mode-toggle {
+  color: #fff;
+}
+
+.dark-mode .topsearchbar .MuiOutlinedInput-notchedOutline {
+  border-color: #858484;
+}
+
+.dark-mode .topsearchbar:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #fff;
+}
+
+.dark-mode .topsearchbar .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #fff;
+}
+
+.dark-mode .topsearchbar .MuiInputBase-input::placeholder {
+  color: #8d8d8d;
+}
+
+.dark-mode .topsearchbar .MuiInputBase-input {
+  color: #fff;
+}
+
+.dark-mode .search-icon {
+  color: #8d8d8d;
+}
+
+/* Styles for Image Grid */
+
+.dark-mode .image-card .frame {
+  background-color: #141414;
+  outline: none;
+}
+
+.dark-mode .image-card .author-name {
+  color: #E5E5E5;
+}
+
+.dark-mode .image-card .usernmae {
+  color: #A7A7A7;
+}
+
+.dark-mode .image-card .likes {
+  color: #E5E5E5;
+}
+
+/* Styles for Image Popup */
+
+.dark-mode .container {
+  background-color: #232323;
+}
+
+/* Styles for dark mode toggle */
+.dark-mode-toggle {
+  cursor: pointer;
+}
+
+/* Toggle switch styles */
+.toggle-switch {
+  width: 40px;
+  height: 20px;
+  background-color: #000; /* Dark background color for the switch */
+  border-radius: 20px;
+  position: relative;
+}
+
+.toggle-switch::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: #fff; /* Light color for the switch handle */
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Style for the switch handle when dark mode is active */
+.dark-mode .toggle-switch::before {
+  transform: translateX(
+    20px
+  ); /* Move the switch handle to the right for dark mode */
+}
